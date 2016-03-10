@@ -9,12 +9,13 @@ public abstract class Beverage {
     protected String description = "no name";
 
     public abstract float cost();
+
     public String getDescription() {
         return description;
     }
 
     public static void main(String args[]) {
-        List<Beverage> lst = new ArrayList<Beverage>();
+        List<Beverage> lst = new ArrayList<>();
         lst.add(new Espresso());
         lst.add(new DarkRoast());
         lst.add(new HouseBlend());

@@ -4,6 +4,11 @@
  */
 
 public class Espresso extends Beverage {
-    public Espresso() { description = "Espresso"; }
-    public float cost() { return 1.1f; }
+    public Espresso() {
+        description = "Espresso";
+    }
+
+    public float cost() {
+        return 1.1f;
+    }
 }

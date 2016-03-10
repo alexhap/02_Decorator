@@ -4,6 +4,11 @@
  */
 
 public class HouseBlend extends Beverage {
-    public HouseBlend() { description = "House Blend"; }
-    public float cost() { return 0.9f; }
+    public HouseBlend() {
+        description = "House Blend";
+    }
+
+    public float cost() {
+        return 0.9f;
+    }
 }

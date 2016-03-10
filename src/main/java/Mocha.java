@@ -9,6 +9,12 @@ public class Mocha extends Decorator {
     public Mocha(Beverage beverage) {
         this.beverage = beverage;
     }
-    public float cost() { return 1.1f + beverage.cost(); }
-    public String getDescription() { return beverage.getDescription().concat(" + mocha"); }
+
+    public float cost() {
+        return 1.1f + beverage.cost();
+    }
+
+    public String getDescription() {
+        return beverage.getDescription().concat(" + mocha");
+    }
 }

@@ -9,6 +9,12 @@ public class Soy extends Decorator {
     public Soy(Beverage beverage) {
         this.beverage = beverage;
     }
-    public float cost() { return 1.5f + beverage.cost(); }
-    public String getDescription() { return beverage.getDescription().concat(" + soy"); }
+
+    public float cost() {
+        return 1.5f + beverage.cost();
+    }
+
+    public String getDescription() {
+        return beverage.getDescription().concat(" + soy");
+    }
 }
